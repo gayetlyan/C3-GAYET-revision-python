@@ -15,4 +15,9 @@ min = trouver_minimum(liste_nombres)
 print("Minimum :", min)
 
 
+def calculer_moyenne(liste):
+    return sum(liste) / len(liste)
+
+moyenne = calculer_moyenne(liste_nombres)
+print("Moyenne :", moyenne)
 
