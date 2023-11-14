@@ -8,3 +8,11 @@ max = trouver_maximum(liste_nombres)
 print("Maximum :", max)
 
 
+def trouver_minimum(liste):
+    return min(liste)
+
+min = trouver_minimum(liste_nombres)
+print("Minimum :", min)
+
+
+
