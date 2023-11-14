@@ -8,8 +8,13 @@ def addition(a, b):
 def soustraction(a, b):
     return a - b
 
+def multiplication(a, b):
+    return a * b
+
 print(f"Addition : {addition(nombre1, nombre2)}")
 print(f"Soustraction : {soustraction(nombre1, nombre2)}")
+print(f"Multiplication : {multiplication(nombre1, nombre2)}")
+
 
 
 
